@@ -28,6 +28,7 @@ h1 {
 .gamelist {
     padding-left: 150px;
     font-size: 40px;
+    display: inline-block;
 }
 
 
