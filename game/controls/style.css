@@ -8,14 +8,19 @@
 * {
     font-family: 'warpen', sans-serif;
     list-style-type: none;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
 }
 
 body {
     text-decoration: none;
     color: aliceblue;
-    background: url('../controls.png') no-repeat center center;
-    background-size: cover;
-    min-height: 100dvh;
+    background: url('../controls.png') no-repeat center center fixed; /* Keep the background fixed */
+    background-size: cover; /* Ensure background covers entire screen */
+    min-height: 100vh; /* Use vh for full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align items to the bottom */
 }
 
 h1 {
@@ -25,15 +30,17 @@ h1 {
 }
 
 .gamelist {
-    padding-left: 150px;
+    padding: 20px; /* Add some padding */
     font-size: 40px;
-    display: inline-block;
+    display: flex; /* Use flexbox to display items horizontally */
+    justify-content: center; /* Center the gamelist */
+    width: 100%; /* Full width */
 }
-
 
 a {
     color: aliceblue;
     text-decoration: none;
+    margin: 0 20px; /* Add space between links */
 }
 
 a:hover {
@@ -48,5 +55,5 @@ a:hover {
         0 0 15px #ffffff,
         0 0 20px #ffffff,
         0 0 25px #ffffff;
-        transition: color 0.02s ease, text-shadow 0.3s ease;
+    transition: color 0.02s ease, text-shadow 0.3s ease;
 }
