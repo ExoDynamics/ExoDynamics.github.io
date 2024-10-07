@@ -30,12 +30,9 @@ body {
     width: 100%;
 }
 
-.gamelist ul {
-    display: flex;
-}
-
 .gamelist li {
     margin: 0 20px;
+    display: inline-block;
 }
 
 a {
