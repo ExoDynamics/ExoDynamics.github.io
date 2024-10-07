@@ -16,7 +16,6 @@ body {
     background: url('../controls.png') no-repeat center center;
     background-size: auto;
     min-height: 100dvh;
-    border: 30px solid rgb(11, 11, 123);
 }
 
 h1 {
