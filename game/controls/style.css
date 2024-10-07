@@ -14,7 +14,7 @@ body {
     text-decoration: none;
     color: aliceblue;
     background: url('../controls.png') no-repeat center center;
-    background-size: auto;
+    background-size: cover;
     min-height: 100dvh;
 }
 
